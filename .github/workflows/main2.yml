@@ -26,7 +26,7 @@ jobs:
       - name: Print Hello World in Test
         run: |
           echo "Hello, World! Testing the project..."
-          #echo "The secret is ${{ secrets.MY_SECRET_NAME }}"
+          echo "The secret is ${{ secrets.OUNITY }}"
  
   deploy:
     runs-on: ubuntu-latest
